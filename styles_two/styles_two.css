@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* banner section styling */
+
+.banner {
+    width: 1600px;
+    height: 808px;
+    text-align: right;
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* creating a border line to see the div box visually */
+    /* border: 4px solid blue; */
+
+}
+
+.title {
+    font-weight: 700px;
+    font-size: 65px;
+    color: #151414;
+    padding-top: 216px;
+    padding-right: 230px;
+    margin-bottom: 25px;
+}
+
+.descrip {
+    font-weight: 400px;
+    font-size: 16px;
+    color: #444343;
+    padding-right: 230px;
+    margin-bottom: 32px;
+}
+
+.first-btn {
+    width: 160px;
+    height: 64px;
+    margin-right: 230px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #F15B22;
+    border: none;
+    border-radius: 5px;
+    padding: 21px, 26px, 21px;
+
+}
+
+/* Body material styling */
+.middle {
+    /* using a border for seeing the body div visually  */
+    /* border: 3px solid blue; */
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 1600px;
+    height: 808px;
+}
+
+.body-img {
+    margin-top: 131px;
+    margin-left: 206px;
+    margin-right: 87px;
+}
+
+
+.body-material {
+    position: absolute;
+    height: 400px;
+    height: 400px;
+    left: 862px;
+    top: 1178px;
+
+    /* border: 3px solid green; */
+}
+
+.list-item {
+    list-style: none;
+    margin-top: 16px;
+
+}
+
+.body-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.body-para {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+
+.list-item li {
+    margin-bottom: 8px;
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+i {
+    padding-right: 10px;
+}
+
+/* body part-two styling */
+
+.title-two {
+    margin-top: 130px;
+    margin-bottom: 55.7px;
+    font-weight: 700;
+    font-size: 40px;
+    padding-left: 711px;
+    color: #151414;
+}
+
+.container-two {
+    /* border selected for me to see the div box visually */
+    /* border: 5px solid brown; */
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 1141px;
+    height: 299.96px;
+    left: 230px;
+    top: 1792.3px;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 130px;
+}
+
+.container-two h3 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.container-two p {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+
+/* Third section of body styling */
+
+.third-section {
+    /* creating a border for me to see the div box clearly */
+    /* border: 5px solid magenta; */
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 2222.26px;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),
+        url('../images/watch.png');
+    background-size: cover;
+    border-radius: 8px;
+    /* background-blend-mode:soft-light; */
+}
+
+.head-title {
+    padding-left: 64px;
+    padding-top: 59px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.Call-me {
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    margin-left: 64px;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* contact banner styling */
+
+.contact-banner {
+    position: absolute;
+    width: 1600px;
+    height: 577px;
+    left: 0px;
+    top: 2652.26px;
+    background-color: #151414;
+    text-align: left;
+    display: flex;
+    align-items: center;
+
+    /* color: white; */
+}
+
+.info {
+    /* border: 5px solid blueviolet; */
+    padding-bottom: 83px;
+}
+
+.subscription {
+    /* border: 5px solid blueviolet; */
+
+    margin-left: 331px;
+    width: 325px;
+    height: 204px;
+}
+
+.hd-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+input {
+    margin-top: 25px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    width: 170px;
+    height: 45px;
+    padding-left: 11px;
+    background-color: #151414;
+    border: 1px solid white;
+    color: #FFFFFF;
+}
+
+::placeholder {
+    color: #f3f3f3c0;
+}
+
+.last-btn {
+    width: 120px;
+    height: 44px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    color: #F15B22;
+    padding: auto;
+    border: none;
+}
+
+.future-title {
+    margin-top: 130px;
+    margin-left: 230px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFFFFF;
+}
+
+.future-desc {
+    margin-left: 230px;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.about {
+    margin-left: 230px;
+    margin-top: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+
+a {
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.email {
+    margin-left: 230px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.phone {
+    margin-left: 230px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+                    /* End of whole styling process */
